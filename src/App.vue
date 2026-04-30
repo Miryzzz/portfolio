@@ -38,6 +38,7 @@
             <section class="rounded-3xl border border-[#1f1f1f] bg-[#141414] p-6 sm:p-8">
               <div class="flex items-center justify-between mb-6">
                 <h2 class="text-xl sm:text-2xl font-bold tracking-tight">Связаться со мной</h2>
+                
                 <span class="text-[9px] text-gray-600 uppercase tracking-[0.2em]">Контакты</span>
               </div>
               <div class="grid grid-cols-3 gap-3">
@@ -56,7 +57,13 @@
             </section>
             <section class="rounded-3xl border border-[#1f1f1f] bg-[#141414] p-6 sm:p-8 flex flex-col justify-between">
               <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-white">Мое резюме</h2>
-              <button class="mt-6 w-full inline-flex items-center justify-center rounded-xl bg-white px-6 py-4 text-sm font-bold text-black transition hover:bg-sky-400">Скачать CV</button>
+              <a 
+                href="/content/markdown.pdf" 
+                download 
+                class="mt-6 w-full inline-flex items-center justify-center rounded-xl bg-white px-6 py-4 text-sm font-bold text-black transition hover:bg-sky-400"
+                >             
+                  Скачать CV
+  </a>
             </section>
           </div>
 
