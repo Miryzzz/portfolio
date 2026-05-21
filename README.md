@@ -1,5 +1,32 @@
-# Vue 3 + Vite
+﻿# Портфолио Матвея
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Одностраничный сайт-портфолио на Vue 3 + Vite + Tailwind CSS.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Стек
+
+- Vue 3 (`<script setup>`)
+- Vite
+- Tailwind CSS 4
+
+## Локальный запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Приложение будет доступно на адресе, который выведет Vite (обычно `http://localhost:5173`).
+
+## Сборка
+
+```bash
+npm run build
+npm run preview
+```
+
+## Структура
+
+- `src/App.vue` - сборка страницы из блоков
+- `src/components/blocks/` - UI-блоки (профиль, проекты, стек, контакты, резюме, модалка)
+- `src/data/portfolioData.js` - контент портфолио
+- `public/content/` - статические изображения и резюме
